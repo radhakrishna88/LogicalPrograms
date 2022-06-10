@@ -13,5 +13,9 @@ public class Remove_leading_and_ending_trail {
 //		System.out.println(given_string.replaceAll("^[ \t]", "")); //removes the leading space by using regular expression
 //		System.out.println(given_string.replaceAll("[ \t]$", "")); //removes the trailing space by using regular expression
 		System.out.println(given_string.replaceAll("^[ ]|[ ]$", "@")); //removes the both leading and trailing space by using regular expression
+		
+		String name="(B\\\\.E/B\\\\.Tech )";
+		String name2=name;
+		System.out.println(name2);
 	}
 }
